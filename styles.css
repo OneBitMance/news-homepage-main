@@ -323,12 +323,8 @@ section {
     align-self: center;
   }
 
-  header nav a {
+  header nav a:not(:nth-child(6)) {
     margin-right: 15px;
-  }
-
-  header nav a:nth-child(6) {
-    margin-right: 0;
   }
 
   header nav a:hover {
@@ -347,7 +343,7 @@ section {
     grid-template-columns: 0.4fr 1fr;
   }
 
-  header nav a {
+  header nav a:not(:nth-child(6)) {
     margin-right: 20px;
   }
 }
@@ -357,7 +353,7 @@ section {
     grid-template-columns: 0.35fr 1fr;
   }
 
-  header nav a {
+  header nav a:not(:nth-child(6)) {
     margin-right: 30px;
   }
 }
@@ -375,7 +371,7 @@ section {
     grid-column: span 12;
   }
 
-  header nav a {
+  header nav a:not(:nth-child(6)) {
     margin-right: 32px;
   }
 
